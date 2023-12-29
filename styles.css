@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Righteous', sans-serif;
+    color: #0F2167;
+    font-size: 7vmin;
+    margin-top: 15px;
+    
+}
+body {
+    background-color: #4CB9E7;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #3559E0;
+    background-color: #FFECD6;
+    cursor: pointer;
+}
+
+#reset {
+    font-family: Poppins;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #0F2167;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#new-btn {
+    font-family: Poppins;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #0F2167;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#msg {
+    color: #FFECD6;
+    font-family: Poppins;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
